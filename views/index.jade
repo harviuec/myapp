@@ -1,0 +1,63 @@
+extends layout
+
+block content
+	div(id='div1')
+		select(id='sel')
+			option(id='none') Select the type of Person
+			option(id='empee') Employee
+			option(id='emper') Employer
+			option(id='cust') Customer
+		button(type='button', id='search') Search
+	div(id='div2')
+		form(id='form2')
+			| Name:
+			input(id='in21')
+			| Address:
+			input(id='in22')
+			| Employee Id:
+			input(id='in23')
+			| Salary:
+			input(id='in24')
+			button(type='button', id='sub2') Submit
+	div(id='div3')
+		form(id='form3')
+			| Name:
+			input(id='in31')
+			| Address:
+			input(id='in32')
+			| Company:
+			input(id='in33')
+			button(type='button', id='sub3') Submit
+	div(id='div4')
+		form(id='form4')
+			| Name:
+			input(id='in41')
+			| Address:
+			input(id='in42')
+			| Customer Id:
+			input(id='in43')
+			| Items:
+			input(id='in44')
+			button(type='button', id='sub4') Submit
+	div(id='div5')
+		form(id='form5')
+			| Name:
+			input(id='in5')
+			button(type='button', id='sub5') Submit
+	div(id='div6' style='display:inline-block; background-color: yellow; vertical-align:10px; margin:10px; padding:0 25px;')
+		p
+			span(id='span11')
+			span(id='span12')
+		p
+			span(id='span21')
+			span(id='span22')
+		p
+			span(id='span31')
+			span(id='span32')
+		p
+			span(id='span41')
+			span(id='span42')
+		p
+			span(id='span51')
+			span(id='span52')
+	div(id='div7')
